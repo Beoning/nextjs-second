@@ -1,14 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import React from "react";
 
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <Navbar />
-      <h1>Homepage</h1>
+      <h1>About</h1>
       <p>
         Irure ut magna veniam cillum. Et do minim magna duis dolore non nisi
         culpa do cillum minim veniam labore elit. Excepteur officia sit nostrud
@@ -17,7 +12,8 @@ export default function Home() {
         Irure ut magna veniam cillum. Et do minim magna duis dolore non nisi
         culpa do cillum minim veniam labore elit. Excepteur officia sit nostrud
       </p>
-      <Footer />
     </div>
   );
-}
+};
+
+export default About;
